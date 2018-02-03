@@ -1,0 +1,64 @@
+
+#########################################
+ Analysis of  .  .
+On conducting The shapiro-wilk test of normality, the pvalue was= 0.0176525448647641 .
+
+The assumpton of normality of parameter  was violated, hence we conducted Mann-Whitney U test
+The Median   in  Diabetic  group  was  34.4  and  inter-quartile range was  17.6 .
+The Median  in  Non-Diabetic  group  was  36.55  and  inter-quartile range was  19.53 .
+On performing Mann whitney U test there was a statistically  non-significant  difference between two groups.
+The p value was  0.7892  .
+#########################################
+ Analysis of  .  .
+On conducting The shapiro-wilk test of normality, the pvalue was= 0.341393387640645 .
+
+The assumption of normality was preserved 
+#########################################
+Levene' test for hompgeneity of variances revealed degree of Freedom of  1 98  and  F ratio 0f  0.01 NA .
+
+On conducting levene test for Homogeneity of Variance we found out that assumption of equal variance was True. Hence We conducted equal variance t-test
+The Mean +/- SD of  x  in  Diabetic  group  was  47.45  and  standard deviation was  15.24 .
+The Mean +/- SD of  x  in  Non-Diabetic  group  was  50.89  and  standard deviation was  15.71 .
+On performing   Two Sample t-test  there was a statistically  non-significant  difference between two groups.
+The mean  difference between group  Diabetic  and group  Non-Diabetic  was  -3.44  .
+The 95 % confidence interval of difference was -9.62  to 2.74  .
+The t statistic was -1.11 . The p value was  0.2717  .
+#########################################
+ Analysis of  .  .
+On conducting The shapiro-wilk test of normality, the pvalue was= 0.382152278662239 .
+
+The assumption of normality was preserved 
+#########################################
+Levene' test for hompgeneity of variances revealed degree of Freedom of  1 98  and  F ratio 0f  0.05 NA .
+
+On conducting levene test for Homogeneity of Variance we found out that assumption of equal variance was True. Hence We conducted equal variance t-test
+The Mean +/- SD of  x  in  Diabetic  group  was  174.04  and  standard deviation was  33.45 .
+The Mean +/- SD of  x  in  Non-Diabetic  group  was  159.2  and  standard deviation was  31.9 .
+On performing   Two Sample t-test  there was a statistically  significant  difference between two groups.
+The mean  difference between group  Diabetic  and group  Non-Diabetic  was  14.83  .
+The 95 % confidence interval of difference was 1.73  to 27.94  .
+The t statistic was 2.25 . The p value was  0.027  .
+#########################################
+ Analysis of  .  .
+On conducting The shapiro-wilk test of normality, the pvalue was= 0.00983779917372021 .
+
+The assumpton of normality of parameter  was violated, hence we conducted Mann-Whitney U test
+The Median   in  Diabetic  group  was  27  and  inter-quartile range was  4.25 .
+The Median  in  Non-Diabetic  group  was  28  and  inter-quartile range was  6 .
+On performing Mann whitney U test there was a statistically  non-significant  difference between two groups.
+The p value was  0.2054  .
+
+
+
+$Vitamin
+NULL
+
+$age
+NULL
+
+$LDL
+NULL
+
+$BMI
+NULL
+

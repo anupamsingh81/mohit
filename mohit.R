@@ -165,4 +165,21 @@ df= df %>% mutate( vitaminstatus = case_when(
       TRUE~"Non-Diabetic"))
     
     
+  library(gmodels)
+  library(tidyverse)
   
+  chichi1 = df1 %>% select_if(is.factor) %>% map(~CrossTable(.,df1$group,chisq=TRUE))
+  
+  sink("chi1.txt")
+  chichi1
+  sink()
+  
+  str(df1)
+  
+  
+  
+  df1$smoker = as.factor(df1$smoker)
+  df1$Hypertensive = as.factor(df1$Hypertensive)
+  df1$Diabetic = as.factor(df1$Diabetic)
+  df1$sex = as.factor(df1$sex)
+  df1$Family_history = as.factor(df1$Family_history)

@@ -1,0 +1,84 @@
+###########################
+Analysis of . .
+The Shapiro test for normality was statistically  non-significant with p value of  0.4643714 .The Barlett test for homogeneity of variance  was statistically   significant with p value of  0.03818363 .
+The mean of  unstable_angina group was 28 . The SD of  unstable_angina group was 9 .
+The mean of  stable_angina group was 40 . The SD of  stable_angina group was 12 .
+The mean of  Control group was 65 . The SD of  Control group was 17 .
+Since assumptions of normality of residuals were met  but  homogeneity of variance was violated, A one-way between subjects one-way ANOVA with Welch Correction  was conducted to compare the effect of groups on  x 
+There was a  statistically significant effect of groups  x at the p<.05 level for all 3  groups .[F( 2 , 22.9650521009793 )= 27.53 ,p = <0.0001 .]
+We conducted a priori specifiied Games-Howell test for carrying out multiple post-hoc comparisons between groups 
+  P values were adjusted for multiple comparisons. Output is as follows 
+###########################
+Analysis of . .
+The Shapiro test for normality was statistically  non-significant with p value of  0.2836069 .The Barlett test for homogeneity of variance  was statistically   non-significant with p value of  0.5676668 .
+The mean of  unstable_angina group was 45 . The SD of  unstable_angina group was 16 .
+The mean of  stable_angina group was 49 . The SD of  stable_angina group was 15 .
+The mean of  Control group was 48 . The SD of  Control group was 18 .
+Since assumptions of normality of residuals and homogeneity of variance were met, A one-way between subjects ANOVA was conducted to compare the effect of groups on  x 
+There was a  statistically  non-significant effect of groups  x at the p<.05 level for all 3  groups .[F( 2 , 97 )= 0.17 ,p = 0.8445 .]
+###########################
+Analysis of . .
+The Shapiro test for normality was statistically  non-significant with p value of  0.2263407 .The Barlett test for homogeneity of variance  was statistically   non-significant with p value of  0.2583729 .
+The mean of  Control group was 122 . The SD of  Control group was 19 .
+The mean of  stable_angina group was 172 . The SD of  stable_angina group was 29 .
+The mean of  unstable_angina group was 186 . The SD of  unstable_angina group was 31 .
+Since assumptions of normality of residuals and homogeneity of variance were met, A one-way between subjects ANOVA was conducted to compare the effect of groups on  x 
+There was a  statistically  significant effect of groups  x at the p<.05 level for all 3  groups .[F( 2 , 97 )= 18.48 ,p = <0.0001 .]
+We conducted a priori specifiied Tukey test for carrying out multiple post-hoc comparisons between groups 
+  P values were adjusted for multiple comparisons. Output is as follows 
+
+
+  * **out**:
+
+    ------------------------------------------------------------------------
+                  &nbsp;                 diff     lwr      upr      p adj
+    ----------------------------------- ------- -------- ------- -----------
+         **stable_angina-Control**       54.32   30.94    77.69   8.047e-07
+
+        **unstable_angina-Control**      62.4    37.41    87.39   1.312e-07
+
+     **unstable_angina-stable_angina**   8.083   -7.219   23.39    0.4227
+    ------------------------------------------------------------------------
+
+
+<!-- end of list -->
+
+
+###########################
+Analysis of . .
+The Shapiro test for normality was statistically  non-significant with p value of  0.2551953 .The Barlett test for homogeneity of variance  was statistically   significant with p value of  0.0399663 .
+The mean of  Control group was 24 . The SD of  Control group was 2 .
+The mean of  unstable_angina group was 26 . The SD of  unstable_angina group was 3 .
+The mean of  stable_angina group was 28 . The SD of  stable_angina group was 3 .
+Since assumptions of normality of residuals were met  but  homogeneity of variance was violated, A one-way between subjects one-way ANOVA with Welch Correction  was conducted to compare the effect of groups on  x 
+There was a  statistically significant effect of groups  x at the p<.05 level for all 3  groups .[F( 2 , 33.5856634445885 )= 27.75 ,p = <0.0001 .]
+We conducted a priori specifiied Games-Howell test for carrying out multiple post-hoc comparisons between groups 
+  P values were adjusted for multiple comparisons. Output is as follows 
+$Vitamin
+                 n means variances
+unstable_angina 30    27        81
+stable_angina   60    40       149
+Control         10    62       287
+
+                                t df       p
+unstable_angina:stable_angina 5.5 75 1.4e-06
+unstable_angina:Control       6.2 11 2.1e-04
+stable_angina:Control         4.0 11 6.3e-03
+
+$age
+NULL
+
+$LDL
+NULL
+
+$BMI
+                 n means variances
+Control         10    23       2.3
+unstable_angina 30    27      11.4
+stable_angina   60    28       8.5
+
+                                t df       p
+Control:unstable_angina       4.4 34 2.8e-04
+Control:stable_angina         7.5 22 4.7e-07
+unstable_angina:stable_angina 1.5 51 2.9e-01
+
